@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Dots: Nanoscale Semiconductor Particles</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 25px;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            border-bottom: 3px solid #9b59b6;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            color: #8e44ad;
+            margin-top: 35px;
+            border-left: 5px solid #9b59b6;
+            padding-left: 15px;
+        }
+        
+        .feature-box {
+            background-color: #f5eef8;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 25px 0;
+            border-left: 4px solid #9b59b6;
+        }
+        
+        ul {
+            padding-left: 25px;
+        }
+        
+        li {
+            margin-bottom: 12px;
+            position: relative;
+        }
+        
+        li:before {
+            content: "•";
+            color: #8e44ad;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+        }
+        
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        th {
+            background-color: #8e44ad;
+            color: white;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
+        .diagram {
+            text-align: center;
+            margin: 30px 0;
+        }
+        
+        .diagram img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .footer {
+            font-size: 0.9em;
+            color: #7f8c8d;
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+        
+        .property-card {
+            background: white;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 15px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-top: 3px solid #9b59b6;
+        }
+        
+        .property-name {
+            font-weight: bold;
+            color: #8e44ad;
+            margin-bottom: 10px;
+        }
+        
+        .top-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #8e44ad;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            font-size: 20px;
+            cursor: pointer;
+            display: none;
+            z-index: 99;
+        }
+        
+        .top-btn:hover {
+            background-color: #732d91;
+        }
+    </style>
+</head>
+<body>
+    <h1>Quantum Dots: Nanoscale Semiconductor Particles</h1>
+    
+    <div class="feature-box">
+        <p><strong>Quantum dots (QDs)</strong> are nanometer-scale semiconductor particles that exhibit unique optical and electronic properties due to quantum confinement effects. Their size-tunable bandgap allows precise control over their light emission and absorption characteristics.</p>
+    </div>
+    
+    <h2>Key Properties</h2>
+    
+    <div class="property-card">
+        <div class="property-name">Size-Dependent Emission</div>
+        <p>Quantum dots emit light at specific wavelengths determined by their size. Smaller dots emit higher energy (bluer) light, while larger dots emit lower energy (redder) light.</p>
+    </div>
+    
+    <div class="property-card">
+        <div class="property-name">High Quantum Yield</div>
+        <p>Quantum dots can convert up to 100% of absorbed photons into emitted photons, making them extremely bright fluorophores.</p>
+    </div>
+    
+    <div class="property-card">
+        <div class="property-name">Narrow Emission Spectra</div>
+        <p>QDs typically have emission bandwidths of 20-30 nm, much narrower than organic dyes (50-100 nm), enabling better spectral resolution.</p>
+    </div>
+    
+    <div class="property-card">
+        <div class="property-name">Photostability</div>
+        <p>Quantum dots are highly resistant to photobleaching, maintaining their brightness much longer than organic fluorophores.</p>
+    </div>
+    
+    <h2>Common Materials</h2>
+    <table>
+        <tr>
+            <th>Material</th>
+            <th>Emission Range</th>
+            <th>Applications</th>
+        </tr>
+        <tr>
+            <td>CdSe (Cadmium Selenide)</td>
+            <td>500-650 nm (visible)</td>
+            <td>Displays, biological labeling</td>
+        </tr>
+        <tr>
+            <td>PbS (Lead Sulfide)</td>
+            <td>800-2000 nm (NIR)</td>
+            <td>Photodetectors, solar cells</td>
+        </tr>
+        <tr>
+            <td>InP (Indium Phosphide)</td>
+            <td>550-750 nm (visible-red)</td>
+            <td>Cadmium-free alternatives</td>
+        </tr>
+        <tr>
+            <td>Perovskite QDs</td>
+            <td>400-700 nm (tunable)</td>
+            <td>LEDs, lasers, photovoltaics</td>
+        </tr>
+    </table>
+    
+    <div class="diagram">
+        <img src="https://example.com/qd-spectrum.jpg" alt="Quantum dot size vs emission color" title="Size-dependent emission of quantum dots">
+        <p><em>Relationship between quantum dot size and emission wavelength</em></p>
+    </div>
+    
+    <h2>Applications</h2>
+    <ul>
+        <li><strong>Display Technology:</strong> QLED TVs with superior color purity and brightness</li>
+        <li><strong>Biological Imaging:</strong> Multicolor cellular labeling and tracking</li>
+        <li><strong>Solar Cells:</strong> Enhanced light absorption in photovoltaics</li>
+        <li><strong>Quantum Computing:</strong> As qubits in solid-state quantum computers</li>
+        <li><strong>Security Inks:</strong> Anti-counterfeiting measures using invisible QD patterns</li>
+    </ul>
+    
+    <h2>Synthesis Methods</h2>
+    <table>
+        <tr>
+            <th>Method</th>
+            <th>Advantages</th>
+            <th>Limitations</th>
+        </tr>
+        <tr>
+            <td>Hot Injection</td>
+            <td>High quality, narrow size distribution</td>
+            <td>Requires inert conditions</td>
+        </tr>
+        <tr>
+            <td>Continuous Flow</td>
+            <td>Scalable, reproducible</td>
+            <td>Equipment intensive</td>
+        </tr>
+        <tr>
+            <td>Solvothermal</td>
+            <td>Simple, low-cost</td>
+            <td>Broad size distribution</td>
+        </tr>
+        <tr>
+            <td>Electrochemical</td>
+            <td>Precise size control</td>
+            <td>Low yield</td>
+        </tr>
+    </table>
+    
+    <button onclick="topFunction()" class="top-btn" id="topBtn" title="Go to top">↑</button>
+    
+    <div class="footer">
+        <p>Note: Recent research focuses on cadmium-free quantum dots (e.g., InP, perovskite) for reduced environmental toxicity.</p>
+    </div>
+
+    <script>
+        // Show/hide scroll to top button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("topBtn").style.display = "block";
+            } else {
+                document.getElementById("topBtn").style.display = "none";
+            }
+        }
+        
+        // Scroll to top function
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+</html>
